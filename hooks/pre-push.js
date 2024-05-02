@@ -3,9 +3,9 @@ const { SSMClient, GetParameterCommand, PutParameterCommand } = require("@aws-sd
 // Configure AWS SDK with your credentials and region
 const ssm = new SSMClient({ region: 'us-east-1' });
 
-const appId = 'd8swtsenicj2o'
+const appId = '<amplify appID>'
 
-const copyFromEnv = 'staging'
+const copyFromEnv = '<amplify enviroment>'
 
 
 // Define parameters with their paths and values
